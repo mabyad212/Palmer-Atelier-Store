@@ -63,3 +63,18 @@ footer p,footer a:last-child{color:var(--muted);font-size:10px}
 footer{padding:34px 6%;flex-direction:column;text-align:center}}
 @media(max-width:380px){.hero h1{font-size:47px}.hero-image{height:360px}.cart-link{font-size:8px}.main-product-image{height:390px}.thumbnail{height:70px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+/* EDITORIAL HERO — DESKTOP REFINEMENT */
+
+@media (min-width: 651px) {
+    .hero {
+        grid-template-columns: 1fr 1.1fr;
+        gap: clamp(30px, 4vw, 60px);
+    }
+
+    .hero h1 {
+        max-width: 600px;
+        font-size: clamp(48px, 4.8vw, 66px);
+        letter-spacing: -1.5px;
+        line-height: 1.08;
+    }
+}
