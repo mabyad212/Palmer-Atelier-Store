@@ -119,3 +119,28 @@ footer{padding:34px 6%;flex-direction:column;text-align:center}}
         object-fit: contain;
     }
 }
+/* MOBILE — EDITORIAL SPACING REFINEMENT */
+
+@media (max-width: 650px) {
+    .collection {
+        padding-top: 55px;
+        padding-bottom: 65px;
+    }
+
+    .section-heading {
+        margin-bottom: 32px;
+    }
+
+    .section-heading h2 {
+        font-size: 36px;
+        line-height: 1.12;
+    }
+
+    .section-heading > p:last-child {
+        font-size: 11px;
+    }
+
+    .main-product-image {
+        height: 420px;
+    }
+}
