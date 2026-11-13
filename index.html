@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Palmer Atelier — Contemporary premium streetwear. Discover our collection.">
+    <title>Palmer Atelier | Contemporary Streetwear</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">PALMER <span>ATELIER</span></a>
+
+        <nav class="navigation">
+            <a href="#home" data-i18n="navHome">Accueil</a>
+            <a href="#collection" data-i18n="navCollection">Collection</a>
+            <a href="#about" data-i18n="navAbout">Notre histoire</a>
+        </nav>
+
+        <div class="header-actions">
+            <button id="languageBtn" class="language-btn">EN</button>
+            <a href="#collection" class="cart-link">
+                <span data-i18n="shopNow">Acheter</span>
+                <span id="cartCount">0</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow" data-i18n="eyebrow">COLLECTION 001 — MOROCCO</p>
+
+                <h1 data-i18n="heroTitle">
+                    Style is a<br>statement.
+                </h1>
+
+                <p class="hero-description" data-i18n="heroDescription">
+                    Designed for those who appreciate simplicity,
+                    quality and individuality.
+                </p>
+
+                <a href="#collection" class="primary-button" data-i18n="discover">
+                    Discover the collection
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <span>PALMER ATELIER</span>
+                    <small>YOUR CAMPAIGN IMAGE</small>
+                </div>
+            </div>
+        </section>
+
+        <section class="collection" id="collection">
+            <div class="section-heading">
+                <p class="eyebrow" data-i18n="collectionLabel">THE COLLECTION</p>
+                <h2 data-i18n="collectionTitle">Essential pieces.</h2>
+                <p data-i18n="collectionDescription">
+                    A considered approach to everyday style.
+                </p>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <div class="image-placeholder">
+                        <span>PRODUCT IMAGE</span>
+                    </div>
+                    <span class="product-tag">COLLECTION 001</span>
+                </div>
+
+                <div class="product-information">
+                    <div>
+                        <h3>Palmer Essential Tracksuit</h3>
+                        <p data-i18n="productDescription">
+                            Contemporary comfort. Timeless design.
+                        </p>
+                    </div>
+                    <span class="price">399 MAD</span>
+                </div>
+
+                <button class="primary-button product-button"
+                    id="addToCart" data-i18n="addToCart">
+                    Add to cart
+                </button>
+            </div>
+        </section>
+
+        <section class="brand-story" id="about">
+            <p class="eyebrow">PALMER ATELIER</p>
+            <h2 data-i18n="storyTitle">
+                Less, but better.
+            </h2>
+            <p data-i18n="storyDescription">
+                We believe great style comes from thoughtful details,
+                simplicity and confidence.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#" class="logo">PALMER <span>ATELIER</span></a>
+        <p>© 2026 Palmer Atelier. All rights reserved.</p>
+        <a href="https://instagram.com/" target="_blank">Instagram</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
