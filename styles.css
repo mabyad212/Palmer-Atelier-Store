@@ -78,3 +78,44 @@ footer{padding:34px 6%;flex-direction:column;text-align:center}}
         line-height: 1.08;
     }
 }
+/* PALMER ATELIER — FULL EDITORIAL CAMPAIGN */
+
+.hero {
+    display: block;
+    min-height: auto;
+    padding: 0;
+    background: #D8C4AC;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.hero-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* Mobile campaign presentation */
+@media (max-width: 650px) {
+    .hero {
+        padding: 0;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
