@@ -48,6 +48,7 @@ let cart = [];
 const translations = {
     fr: {
         home: "Accueil",
+       collectionTag: "COLLECTION 001 — MAROC",
         collection: "Collection",
         about: "Notre histoire",
         shop: "Acheter",
@@ -85,6 +86,7 @@ const translations = {
 
     en: {
         home: "Home",
+       collectionTag: "COLLECTION 001 — MOROCCO",
         collection: "Collection",
         about: "Our story",
         shop: "Shop",
